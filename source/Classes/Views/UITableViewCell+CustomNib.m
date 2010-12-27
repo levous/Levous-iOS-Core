@@ -34,7 +34,8 @@
     cell = [[(UITableViewCell*)[class alloc] initWithStyle:style reuseIdentifier:reuseIdentifier] autorelease];
   }else {
     // this might not be the best way to handle this but not sure of how else
-    cell = [cell initWithStyle:style reuseIdentifier:reuseIdentifier];
+    // actually, not working.  returns a diffrerent reference and the controls don't wire correctly
+    //cell = [cell initWithStyle:style reuseIdentifier:reuseIdentifier];
   }
 
 	

@@ -187,8 +187,8 @@
 		FBEAA6B612C39F9E00168BD2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				FBEAA6BB12C39FFB00168BD2 /* UITableViewCell+CustomNib.m */,
 				FBEAA6BC12C39FFB00168BD2 /* UITableViewCell+CustomNib.h */,
+				FBEAA6BB12C39FFB00168BD2 /* UITableViewCell+CustomNib.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
