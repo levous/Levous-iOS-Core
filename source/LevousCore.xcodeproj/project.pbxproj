@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA747D9F0F9514B9006C5449 /* LevousCore_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* LevousCore_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		FBEAA54912C3991200168BD2 /* LVCoreDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FBEAA54712C3991200168BD2 /* LVCoreDataManager.h */; };
+		FBEAA54A12C3991200168BD2 /* LVCoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEAA54812C3991200168BD2 /* LVCoreDataManager.m */; };
+		FBEAA56C12C39A2900168BD2 /* NSMutableArray.h in Headers */ = {isa = PBXBuildFile; fileRef = FBEAA55E12C39A2900168BD2 /* NSMutableArray.h */; };
+		FBEAA56D12C39A2900168BD2 /* NSMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEAA55F12C39A2900168BD2 /* NSMutableArray.m */; };
+		FBEAA56E12C39A2900168BD2 /* NSObject.h in Headers */ = {isa = PBXBuildFile; fileRef = FBEAA56012C39A2900168BD2 /* NSObject.h */; };
+		FBEAA56F12C39A2900168BD2 /* NSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEAA56112C39A2900168BD2 /* NSObject.m */; };
+		FBEAA57012C39A2900168BD2 /* NSString.h in Headers */ = {isa = PBXBuildFile; fileRef = FBEAA56212C39A2900168BD2 /* NSString.h */; };
+		FBEAA57112C39A2900168BD2 /* NSString.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEAA56312C39A2900168BD2 /* NSString.m */; };
+		FBEAA57212C39A2900168BD2 /* SDTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FBEAA56412C39A2900168BD2 /* SDTableViewController.h */; };
+		FBEAA57312C39A2900168BD2 /* SDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEAA56512C39A2900168BD2 /* SDTableViewController.m */; };
+		FBEAA57412C39A2900168BD2 /* SimpleModel.h in Headers */ = {isa = PBXBuildFile; fileRef = FBEAA56612C39A2900168BD2 /* SimpleModel.h */; };
+		FBEAA57512C39A2900168BD2 /* SimpleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEAA56712C39A2900168BD2 /* SimpleModel.m */; };
+		FBEAA57612C39A2900168BD2 /* SimpleStore.h in Headers */ = {isa = PBXBuildFile; fileRef = FBEAA56812C39A2900168BD2 /* SimpleStore.h */; };
+		FBEAA57712C39A2900168BD2 /* SimpleStore.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEAA56912C39A2900168BD2 /* SimpleStore.m */; };
+		FBEAA57812C39A2900168BD2 /* UIApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = FBEAA56A12C39A2900168BD2 /* UIApplication.h */; };
+		FBEAA57912C39A2900168BD2 /* UIApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEAA56B12C39A2900168BD2 /* UIApplication.m */; };
+		FBEAA57F12C39AC000168BD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBEAA57E12C39AC000168BD2 /* UIKit.framework */; };
+		FBEAA58712C39AF400168BD2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBEAA58612C39AF400168BD2 /* QuartzCore.framework */; };
+		FBEAA58912C39B0300168BD2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBEAA58812C39B0300168BD2 /* CoreGraphics.framework */; };
+		FBEAA58B12C39B0F00168BD2 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBEAA58A12C39B0F00168BD2 /* CoreData.framework */; };
+		FBEAA60F12C39E2000168BD2 /* LVConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = FBEAA60E12C39E2000168BD2 /* LVConstants.h */; };
+		FBEAA61B12C39E5D00168BD2 /* LVInstrumentationController.h in Headers */ = {isa = PBXBuildFile; fileRef = FBEAA61912C39E5D00168BD2 /* LVInstrumentationController.h */; };
+		FBEAA61C12C39E5D00168BD2 /* LVInstrumentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEAA61A12C39E5D00168BD2 /* LVInstrumentationController.m */; };
+		FBEAA6BD12C39FFB00168BD2 /* UITableViewCell+CustomNib.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEAA6BB12C39FFB00168BD2 /* UITableViewCell+CustomNib.m */; };
+		FBEAA6BE12C39FFB00168BD2 /* UITableViewCell+CustomNib.h in Headers */ = {isa = PBXBuildFile; fileRef = FBEAA6BC12C39FFB00168BD2 /* UITableViewCell+CustomNib.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA747D9E0F9514B9006C5449 /* LevousCore_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevousCore_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libLevousCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLevousCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBEAA54712C3991200168BD2 /* LVCoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LVCoreDataManager.h; path = Classes/CoreData/LVCoreDataManager.h; sourceTree = SOURCE_ROOT; };
+		FBEAA54812C3991200168BD2 /* LVCoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LVCoreDataManager.m; path = Classes/CoreData/LVCoreDataManager.m; sourceTree = SOURCE_ROOT; };
+		FBEAA55E12C39A2900168BD2 /* NSMutableArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSMutableArray.h; path = Libraries/SimpleData/NSMutableArray.h; sourceTree = SOURCE_ROOT; };
+		FBEAA55F12C39A2900168BD2 /* NSMutableArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSMutableArray.m; path = Libraries/SimpleData/NSMutableArray.m; sourceTree = SOURCE_ROOT; };
+		FBEAA56012C39A2900168BD2 /* NSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSObject.h; path = Libraries/SimpleData/NSObject.h; sourceTree = SOURCE_ROOT; };
+		FBEAA56112C39A2900168BD2 /* NSObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSObject.m; path = Libraries/SimpleData/NSObject.m; sourceTree = SOURCE_ROOT; };
+		FBEAA56212C39A2900168BD2 /* NSString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSString.h; path = Libraries/SimpleData/NSString.h; sourceTree = SOURCE_ROOT; };
+		FBEAA56312C39A2900168BD2 /* NSString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSString.m; path = Libraries/SimpleData/NSString.m; sourceTree = SOURCE_ROOT; };
+		FBEAA56412C39A2900168BD2 /* SDTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDTableViewController.h; path = Libraries/SimpleData/SDTableViewController.h; sourceTree = SOURCE_ROOT; };
+		FBEAA56512C39A2900168BD2 /* SDTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDTableViewController.m; path = Libraries/SimpleData/SDTableViewController.m; sourceTree = SOURCE_ROOT; };
+		FBEAA56612C39A2900168BD2 /* SimpleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimpleModel.h; path = Libraries/SimpleData/SimpleModel.h; sourceTree = SOURCE_ROOT; };
+		FBEAA56712C39A2900168BD2 /* SimpleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SimpleModel.m; path = Libraries/SimpleData/SimpleModel.m; sourceTree = SOURCE_ROOT; };
+		FBEAA56812C39A2900168BD2 /* SimpleStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimpleStore.h; path = Libraries/SimpleData/SimpleStore.h; sourceTree = SOURCE_ROOT; };
+		FBEAA56912C39A2900168BD2 /* SimpleStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SimpleStore.m; path = Libraries/SimpleData/SimpleStore.m; sourceTree = SOURCE_ROOT; };
+		FBEAA56A12C39A2900168BD2 /* UIApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIApplication.h; path = Libraries/SimpleData/UIApplication.h; sourceTree = SOURCE_ROOT; };
+		FBEAA56B12C39A2900168BD2 /* UIApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIApplication.m; path = Libraries/SimpleData/UIApplication.m; sourceTree = SOURCE_ROOT; };
+		FBEAA57E12C39AC000168BD2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FBEAA58612C39AF400168BD2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FBEAA58812C39B0300168BD2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FBEAA58A12C39B0F00168BD2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FBEAA60E12C39E2000168BD2 /* LVConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LVConstants.h; path = Classes/LVConstants.h; sourceTree = SOURCE_ROOT; };
+		FBEAA61912C39E5D00168BD2 /* LVInstrumentationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LVInstrumentationController.h; path = Classes/Instrumentation/LVInstrumentationController.h; sourceTree = SOURCE_ROOT; };
+		FBEAA61A12C39E5D00168BD2 /* LVInstrumentationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LVInstrumentationController.m; path = Classes/Instrumentation/LVInstrumentationController.m; sourceTree = SOURCE_ROOT; };
+		FBEAA6BB12C39FFB00168BD2 /* UITableViewCell+CustomNib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITableViewCell+CustomNib.m"; path = "Classes/Views/UITableViewCell+CustomNib.m"; sourceTree = SOURCE_ROOT; };
+		FBEAA6BC12C39FFB00168BD2 /* UITableViewCell+CustomNib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITableViewCell+CustomNib.h"; path = "Classes/Views/UITableViewCell+CustomNib.h"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+				FBEAA57F12C39AC000168BD2 /* UIKit.framework in Frameworks */,
+				FBEAA58712C39AF400168BD2 /* QuartzCore.framework in Frameworks */,
+				FBEAA58912C39B0300168BD2 /* CoreGraphics.framework in Frameworks */,
+				FBEAA58B12C39B0F00168BD2 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libLevousCore.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* LevousCore */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				FBEAA55C12C39A2900168BD2 /* Libraries */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = LevousCore;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+				FBEAA57E12C39AC000168BD2 /* UIKit.framework */,
+				FBEAA58612C39AF400168BD2 /* QuartzCore.framework */,
+				FBEAA58812C39B0300168BD2 /* CoreGraphics.framework */,
+				FBEAA58A12C39B0F00168BD2 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FBEAA54612C3991200168BD2 /* CoreData */,
+				FBEAA61812C39E5D00168BD2 /* Instrumentation */,
+				FBEAA6B612C39F9E00168BD2 /* Views */,
+				FBEAA60E12C39E2000168BD2 /* LVConstants.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* LevousCore_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		FBEAA54612C3991200168BD2 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				FBEAA54712C3991200168BD2 /* LVCoreDataManager.h */,
+				FBEAA54812C3991200168BD2 /* LVCoreDataManager.m */,
+			);
+			name = CoreData;
+			path = Classes/CoreData;
+			sourceTree = SOURCE_ROOT;
+		};
+		FBEAA55C12C39A2900168BD2 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				FBEAA55D12C39A2900168BD2 /* SimpleData */,
+			);
+			path = Libraries;
+			sourceTree = SOURCE_ROOT;
+		};
+		FBEAA55D12C39A2900168BD2 /* SimpleData */ = {
+			isa = PBXGroup;
+			children = (
+				FBEAA55E12C39A2900168BD2 /* NSMutableArray.h */,
+				FBEAA55F12C39A2900168BD2 /* NSMutableArray.m */,
+				FBEAA56012C39A2900168BD2 /* NSObject.h */,
+				FBEAA56112C39A2900168BD2 /* NSObject.m */,
+				FBEAA56212C39A2900168BD2 /* NSString.h */,
+				FBEAA56312C39A2900168BD2 /* NSString.m */,
+				FBEAA56412C39A2900168BD2 /* SDTableViewController.h */,
+				FBEAA56512C39A2900168BD2 /* SDTableViewController.m */,
+				FBEAA56612C39A2900168BD2 /* SimpleModel.h */,
+				FBEAA56712C39A2900168BD2 /* SimpleModel.m */,
+				FBEAA56812C39A2900168BD2 /* SimpleStore.h */,
+				FBEAA56912C39A2900168BD2 /* SimpleStore.m */,
+				FBEAA56A12C39A2900168BD2 /* UIApplication.h */,
+				FBEAA56B12C39A2900168BD2 /* UIApplication.m */,
+			);
+			name = SimpleData;
+			path = Libraries/SimpleData;
+			sourceTree = SOURCE_ROOT;
+		};
+		FBEAA61812C39E5D00168BD2 /* Instrumentation */ = {
+			isa = PBXGroup;
+			children = (
+				FBEAA61912C39E5D00168BD2 /* LVInstrumentationController.h */,
+				FBEAA61A12C39E5D00168BD2 /* LVInstrumentationController.m */,
+			);
+			name = Instrumentation;
+			path = Classes/Instrumentation;
+			sourceTree = SOURCE_ROOT;
+		};
+		FBEAA6B612C39F9E00168BD2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FBEAA6BB12C39FFB00168BD2 /* UITableViewCell+CustomNib.m */,
+				FBEAA6BC12C39FFB00168BD2 /* UITableViewCell+CustomNib.h */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* LevousCore_Prefix.pch in Headers */,
+				FBEAA54912C3991200168BD2 /* LVCoreDataManager.h in Headers */,
+				FBEAA56C12C39A2900168BD2 /* NSMutableArray.h in Headers */,
+				FBEAA56E12C39A2900168BD2 /* NSObject.h in Headers */,
+				FBEAA57012C39A2900168BD2 /* NSString.h in Headers */,
+				FBEAA57212C39A2900168BD2 /* SDTableViewController.h in Headers */,
+				FBEAA57412C39A2900168BD2 /* SimpleModel.h in Headers */,
+				FBEAA57612C39A2900168BD2 /* SimpleStore.h in Headers */,
+				FBEAA57812C39A2900168BD2 /* UIApplication.h in Headers */,
+				FBEAA60F12C39E2000168BD2 /* LVConstants.h in Headers */,
+				FBEAA61B12C39E5D00168BD2 /* LVInstrumentationController.h in Headers */,
+				FBEAA6BE12C39FFB00168BD2 /* UITableViewCell+CustomNib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* LevousCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "LevousCore" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LevousCore;
+			productName = LevousCore;
+			productReference = D2AAC07E0554694100DB518D /* libLevousCore.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "LevousCore" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* LevousCore */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* LevousCore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBEAA54A12C3991200168BD2 /* LVCoreDataManager.m in Sources */,
+				FBEAA56D12C39A2900168BD2 /* NSMutableArray.m in Sources */,
+				FBEAA56F12C39A2900168BD2 /* NSObject.m in Sources */,
+				FBEAA57112C39A2900168BD2 /* NSString.m in Sources */,
+				FBEAA57312C39A2900168BD2 /* SDTableViewController.m in Sources */,
+				FBEAA57512C39A2900168BD2 /* SimpleModel.m in Sources */,
+				FBEAA57712C39A2900168BD2 /* SimpleStore.m in Sources */,
+				FBEAA57912C39A2900168BD2 /* UIApplication.m in Sources */,
+				FBEAA61C12C39E5D00168BD2 /* LVInstrumentationController.m in Sources */,
+				FBEAA6BD12C39FFB00168BD2 /* UITableViewCell+CustomNib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/LevousCore.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LevousCore_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = LevousCore;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/LevousCore.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LevousCore_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = LevousCore;
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "LevousCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "LevousCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
