@@ -10,7 +10,7 @@
 
 
 @implementation LVStyleSheet
-
+@synthesize subHeaderTextStyle;
 static LVStyleSheet *_sharedInstance;
 
 + (LVStyleSheet *)newDefaultStyleSheet{
@@ -24,11 +24,23 @@ static LVStyleSheet *_sharedInstance;
   return _sharedInstance;
 }
 
-- (UIColor *)subHeaderFontColor{
-  return [UIColor darkGrayColor];
+- (id)init{
+ if (self == [super init]) {
+   LVTextStyle *defaultSubHeaderTextStyle = [[LVTextStyle alloc] initWithFont:nil
+                                                                 andTextColor:[UIColor blackColor] 
+                                                           andBackgroundColor:nil 
+                                                           andTextShadowColor:[UIColor whiteColor] 
+                                                          andTextShadowOffset:CGSizeMake(0.5, 0.8) 
+                                                                     andAlpha:0.8];
+   [self setSubHeaderTextStyle:defaultSubHeaderTextStyle];
+   [defaultSubHeaderTextStyle release];
+ } 
+  return self;
 }
-- (UIColor *)subHeaderFontShadowColor{
-  return [UIColor whiteColor];
+
+- (void)dealloc{
+  [self setSubHeaderTextStyle:nil];
+  [super dealloc]; 
 }
 
 @end

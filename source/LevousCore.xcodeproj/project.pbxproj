@@ -11,6 +11,8 @@
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 		FB91CBC812D1561700E3BD4C /* LVStyleSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = FB91CBC612D1561700E3BD4C /* LVStyleSheet.h */; };
 		FB91CBC912D1561700E3BD4C /* LVStyleSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = FB91CBC712D1561700E3BD4C /* LVStyleSheet.m */; };
+		FB91CD8F12D2BE1700E3BD4C /* LVTextStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = FB91CD8D12D2BE1700E3BD4C /* LVTextStyle.h */; };
+		FB91CD9012D2BE1700E3BD4C /* LVTextStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = FB91CD8E12D2BE1700E3BD4C /* LVTextStyle.m */; };
 		FBEAA54912C3991200168BD2 /* LVCoreDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FBEAA54712C3991200168BD2 /* LVCoreDataManager.h */; };
 		FBEAA54A12C3991200168BD2 /* LVCoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEAA54812C3991200168BD2 /* LVCoreDataManager.m */; };
 		FBEAA56C12C39A2900168BD2 /* NSMutableArray.h in Headers */ = {isa = PBXBuildFile; fileRef = FBEAA55E12C39A2900168BD2 /* NSMutableArray.h */; };
@@ -44,6 +46,8 @@
 		D2AAC07E0554694100DB518D /* libLevousCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLevousCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB91CBC612D1561700E3BD4C /* LVStyleSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LVStyleSheet.h; sourceTree = "<group>"; };
 		FB91CBC712D1561700E3BD4C /* LVStyleSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LVStyleSheet.m; sourceTree = "<group>"; };
+		FB91CD8D12D2BE1700E3BD4C /* LVTextStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LVTextStyle.h; sourceTree = "<group>"; };
+		FB91CD8E12D2BE1700E3BD4C /* LVTextStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LVTextStyle.m; sourceTree = "<group>"; };
 		FBEAA54712C3991200168BD2 /* LVCoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LVCoreDataManager.h; path = Classes/CoreData/LVCoreDataManager.h; sourceTree = SOURCE_ROOT; };
 		FBEAA54812C3991200168BD2 /* LVCoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LVCoreDataManager.m; path = Classes/CoreData/LVCoreDataManager.m; sourceTree = SOURCE_ROOT; };
 		FBEAA55E12C39A2900168BD2 /* NSMutableArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSMutableArray.h; path = Libraries/SimpleData/NSMutableArray.h; sourceTree = SOURCE_ROOT; };
@@ -144,6 +148,8 @@
 			children = (
 				FB91CBC612D1561700E3BD4C /* LVStyleSheet.h */,
 				FB91CBC712D1561700E3BD4C /* LVStyleSheet.m */,
+				FB91CD8D12D2BE1700E3BD4C /* LVTextStyle.h */,
+				FB91CD8E12D2BE1700E3BD4C /* LVTextStyle.m */,
 			);
 			name = UITheme;
 			sourceTree = "<group>";
@@ -227,6 +233,7 @@
 				FBEAA61B12C39E5D00168BD2 /* LVInstrumentationController.h in Headers */,
 				FBEAA6BE12C39FFB00168BD2 /* UITableViewCell+CustomNib.h in Headers */,
 				FB91CBC812D1561700E3BD4C /* LVStyleSheet.h in Headers */,
+				FB91CD8F12D2BE1700E3BD4C /* LVTextStyle.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +298,7 @@
 				FBEAA61C12C39E5D00168BD2 /* LVInstrumentationController.m in Sources */,
 				FBEAA6BD12C39FFB00168BD2 /* UITableViewCell+CustomNib.m in Sources */,
 				FB91CBC912D1561700E3BD4C /* LVStyleSheet.m in Sources */,
+				FB91CD9012D2BE1700E3BD4C /* LVTextStyle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
