@@ -7,12 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A92824421365EE2600D4D3A5 /* NSString+LVAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A92824401365EE2600D4D3A5 /* NSString+LVAdditions.h */; };
+		A92824431365EE2600D4D3A5 /* NSString+LVAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A92824411365EE2600D4D3A5 /* NSString+LVAdditions.m */; };
+		A92824451365EF6B00D4D3A5 /* NSString+LVAdditions.h in Copy Header Files to Headers Directory */ = {isa = PBXBuildFile; fileRef = A92824401365EE2600D4D3A5 /* NSString+LVAdditions.h */; };
+		A986E089135FD2960078E12E /* KeyboardHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = A986E087135FD2960078E12E /* KeyboardHelper.h */; };
+		A986E08A135FD2960078E12E /* KeyboardHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A986E088135FD2960078E12E /* KeyboardHelper.m */; };
+		A99F987B13667B9D0074CF76 /* ModelFormConfigTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A99F987A13667B9D0074CF76 /* ModelFormConfigTests.m */; };
+		A99F9882136682AF0074CF76 /* ModelFormOrchestratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A99F987E136680A70074CF76 /* ModelFormOrchestratorTests.m */; };
+		A9DC652913666B0F00DA53E5 /* ModelFormOrchestrator.h in Headers */ = {isa = PBXBuildFile; fileRef = A9DC652713666B0F00DA53E5 /* ModelFormOrchestrator.h */; };
+		A9DC652A13666B0F00DA53E5 /* ModelFormOrchestrator.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DC652813666B0F00DA53E5 /* ModelFormOrchestrator.m */; };
+		A9DC652E13666B4600DA53E5 /* ModelFormConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = A9DC652C13666B4600DA53E5 /* ModelFormConfig.h */; };
+		A9DC652F13666B4600DA53E5 /* ModelFormConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DC652D13666B4600DA53E5 /* ModelFormConfig.m */; };
+		A9DC653C13666FE100DA53E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBEAA57E12C39AC000168BD2 /* UIKit.framework */; };
+		A9DC653D13666FE100DA53E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		A9DC653E13666FE100DA53E5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBEAA58812C39B0300168BD2 /* CoreGraphics.framework */; };
+		A9DC653F13666FE100DA53E5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBEAA58A12C39B0F00168BD2 /* CoreData.framework */; };
+		A9DC654513666FE100DA53E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9DC654313666FE100DA53E5 /* InfoPlist.strings */; };
+		A9DC65621366730F00DA53E5 /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9DC65611366730F00DA53E5 /* GHUnitIOS.framework */; };
+		A9DC65661366762E00DA53E5 /* GHUnitIOSTestMain.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DC65641366762300DA53E5 /* GHUnitIOSTestMain.m */; };
 		AA747D9F0F9514B9006C5449 /* LevousCore_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* LevousCore_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 		FB91CBC812D1561700E3BD4C /* LVStyleSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = FB91CBC612D1561700E3BD4C /* LVStyleSheet.h */; };
 		FB91CBC912D1561700E3BD4C /* LVStyleSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = FB91CBC712D1561700E3BD4C /* LVStyleSheet.m */; };
 		FB91CD8F12D2BE1700E3BD4C /* LVTextStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = FB91CD8D12D2BE1700E3BD4C /* LVTextStyle.h */; };
 		FB91CD9012D2BE1700E3BD4C /* LVTextStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = FB91CD8E12D2BE1700E3BD4C /* LVTextStyle.m */; };
+		FBAC20DE13194912003F321D /* LevousCoreHeadersImportAll.h in Headers */ = {isa = PBXBuildFile; fileRef = FBAC20DD13194912003F321D /* LevousCoreHeadersImportAll.h */; };
+		FBAC210513194C43003F321D /* LVCoreDataManager.h in Copy Header Files to Headers Directory */ = {isa = PBXBuildFile; fileRef = FBEAA54712C3991200168BD2 /* LVCoreDataManager.h */; };
+		FBAC210613194C43003F321D /* NSMutableArray.h in Copy Header Files to Headers Directory */ = {isa = PBXBuildFile; fileRef = FBEAA55E12C39A2900168BD2 /* NSMutableArray.h */; };
+		FBAC210713194C43003F321D /* NSObject.h in Copy Header Files to Headers Directory */ = {isa = PBXBuildFile; fileRef = FBEAA56012C39A2900168BD2 /* NSObject.h */; };
+		FBAC210813194C43003F321D /* NSString.h in Copy Header Files to Headers Directory */ = {isa = PBXBuildFile; fileRef = FBEAA56212C39A2900168BD2 /* NSString.h */; };
+		FBAC210913194C43003F321D /* SDTableViewController.h in Copy Header Files to Headers Directory */ = {isa = PBXBuildFile; fileRef = FBEAA56412C39A2900168BD2 /* SDTableViewController.h */; };
+		FBAC210A13194C43003F321D /* SimpleModel.h in Copy Header Files to Headers Directory */ = {isa = PBXBuildFile; fileRef = FBEAA56612C39A2900168BD2 /* SimpleModel.h */; };
+		FBAC210B13194C43003F321D /* SimpleStore.h in Copy Header Files to Headers Directory */ = {isa = PBXBuildFile; fileRef = FBEAA56812C39A2900168BD2 /* SimpleStore.h */; };
+		FBAC210C13194C43003F321D /* UIApplication.h in Copy Header Files to Headers Directory */ = {isa = PBXBuildFile; fileRef = FBEAA56A12C39A2900168BD2 /* UIApplication.h */; };
+		FBAC210D13194C43003F321D /* LVConstants.h in Copy Header Files to Headers Directory */ = {isa = PBXBuildFile; fileRef = FBEAA60E12C39E2000168BD2 /* LVConstants.h */; };
+		FBAC210E13194C43003F321D /* LVInstrumentationController.h in Copy Header Files to Headers Directory */ = {isa = PBXBuildFile; fileRef = FBEAA61912C39E5D00168BD2 /* LVInstrumentationController.h */; };
+		FBAC210F13194C43003F321D /* UITableViewCell+CustomNib.h in Copy Header Files to Headers Directory */ = {isa = PBXBuildFile; fileRef = FBEAA6BC12C39FFB00168BD2 /* UITableViewCell+CustomNib.h */; };
+		FBAC211013194C43003F321D /* LVStyleSheet.h in Copy Header Files to Headers Directory */ = {isa = PBXBuildFile; fileRef = FB91CBC612D1561700E3BD4C /* LVStyleSheet.h */; };
+		FBAC211113194C43003F321D /* LVTextStyle.h in Copy Header Files to Headers Directory */ = {isa = PBXBuildFile; fileRef = FB91CD8D12D2BE1700E3BD4C /* LVTextStyle.h */; };
+		FBAC2214131C4EAA003F321D /* NSManagedObject+Levous.h in Headers */ = {isa = PBXBuildFile; fileRef = FBAC2212131C4EAA003F321D /* NSManagedObject+Levous.h */; };
+		FBAC2215131C4EAA003F321D /* NSManagedObject+Levous.m in Sources */ = {isa = PBXBuildFile; fileRef = FBAC2213131C4EAA003F321D /* NSManagedObject+Levous.m */; };
+		FBAC221B131C5111003F321D /* NSManagedObject+Levous.h in Copy Header Files to Headers Directory */ = {isa = PBXBuildFile; fileRef = FBAC2212131C4EAA003F321D /* NSManagedObject+Levous.h */; };
+		FBAC247B131D9F2B003F321D /* LVFetchedResultsControllerTableViewDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = FBAC2479131D9F2B003F321D /* LVFetchedResultsControllerTableViewDataSource.h */; };
+		FBAC247C131D9F2B003F321D /* LVFetchedResultsControllerTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = FBAC247A131D9F2B003F321D /* LVFetchedResultsControllerTableViewDataSource.m */; };
+		FBAC2480131D9F45003F321D /* LVFetchedResultsControllerTableViewDataSource.h in Copy Header Files to Headers Directory */ = {isa = PBXBuildFile; fileRef = FBAC2479131D9F2B003F321D /* LVFetchedResultsControllerTableViewDataSource.h */; };
 		FBEAA54912C3991200168BD2 /* LVCoreDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FBEAA54712C3991200168BD2 /* LVCoreDataManager.h */; };
 		FBEAA54A12C3991200168BD2 /* LVCoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEAA54812C3991200168BD2 /* LVCoreDataManager.m */; };
 		FBEAA56C12C39A2900168BD2 /* NSMutableArray.h in Headers */ = {isa = PBXBuildFile; fileRef = FBEAA55E12C39A2900168BD2 /* NSMutableArray.h */; };
@@ -40,7 +78,55 @@
 		FBEAA6BE12C39FFB00168BD2 /* UITableViewCell+CustomNib.h in Headers */ = {isa = PBXBuildFile; fileRef = FBEAA6BC12C39FFB00168BD2 /* UITableViewCell+CustomNib.h */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		FBAC20FF13194B0D003F321D /* Copy Header Files to Headers Directory */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			comments = "trying to get all the header files in one place for include until I learn the RIGHT way to do this";
+			dstPath = ../../LevousCoreHeaders;
+			dstSubfolderSpec = 16;
+			files = (
+				A92824451365EF6B00D4D3A5 /* NSString+LVAdditions.h in Copy Header Files to Headers Directory */,
+				FBAC2480131D9F45003F321D /* LVFetchedResultsControllerTableViewDataSource.h in Copy Header Files to Headers Directory */,
+				FBAC221B131C5111003F321D /* NSManagedObject+Levous.h in Copy Header Files to Headers Directory */,
+				FBAC210513194C43003F321D /* LVCoreDataManager.h in Copy Header Files to Headers Directory */,
+				FBAC210613194C43003F321D /* NSMutableArray.h in Copy Header Files to Headers Directory */,
+				FBAC210713194C43003F321D /* NSObject.h in Copy Header Files to Headers Directory */,
+				FBAC210813194C43003F321D /* NSString.h in Copy Header Files to Headers Directory */,
+				FBAC210913194C43003F321D /* SDTableViewController.h in Copy Header Files to Headers Directory */,
+				FBAC210A13194C43003F321D /* SimpleModel.h in Copy Header Files to Headers Directory */,
+				FBAC210B13194C43003F321D /* SimpleStore.h in Copy Header Files to Headers Directory */,
+				FBAC210C13194C43003F321D /* UIApplication.h in Copy Header Files to Headers Directory */,
+				FBAC210D13194C43003F321D /* LVConstants.h in Copy Header Files to Headers Directory */,
+				FBAC210E13194C43003F321D /* LVInstrumentationController.h in Copy Header Files to Headers Directory */,
+				FBAC210F13194C43003F321D /* UITableViewCell+CustomNib.h in Copy Header Files to Headers Directory */,
+				FBAC211013194C43003F321D /* LVStyleSheet.h in Copy Header Files to Headers Directory */,
+				FBAC211113194C43003F321D /* LVTextStyle.h in Copy Header Files to Headers Directory */,
+			);
+			name = "Copy Header Files to Headers Directory";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		A92824401365EE2600D4D3A5 /* NSString+LVAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LVAdditions.h"; sourceTree = "<group>"; };
+		A92824411365EE2600D4D3A5 /* NSString+LVAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LVAdditions.m"; sourceTree = "<group>"; };
+		A986E087135FD2960078E12E /* KeyboardHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardHelper.h; sourceTree = "<group>"; };
+		A986E088135FD2960078E12E /* KeyboardHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardHelper.m; sourceTree = "<group>"; };
+		A99F987A13667B9D0074CF76 /* ModelFormConfigTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelFormConfigTests.m; sourceTree = "<group>"; };
+		A99F987E136680A70074CF76 /* ModelFormOrchestratorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelFormOrchestratorTests.m; sourceTree = "<group>"; };
+		A9DC652713666B0F00DA53E5 /* ModelFormOrchestrator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelFormOrchestrator.h; sourceTree = "<group>"; };
+		A9DC652813666B0F00DA53E5 /* ModelFormOrchestrator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelFormOrchestrator.m; sourceTree = "<group>"; };
+		A9DC652C13666B4600DA53E5 /* ModelFormConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelFormConfig.h; sourceTree = "<group>"; };
+		A9DC652D13666B4600DA53E5 /* ModelFormConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelFormConfig.m; sourceTree = "<group>"; };
+		A9DC653A13666FE100DA53E5 /* LevousCoreTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LevousCoreTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9DC654213666FE100DA53E5 /* LevousCoreTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LevousCoreTests-Info.plist"; sourceTree = "<group>"; };
+		A9DC654413666FE100DA53E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A9DC654613666FE100DA53E5 /* LevousCoreTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LevousCoreTests-Prefix.pch"; sourceTree = "<group>"; };
+		A9DC65611366730F00DA53E5 /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GHUnitIOS.framework; sourceTree = "<group>"; };
+		A9DC65631366737000DA53E5 /* LevousCoreTests_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevousCoreTests_Prefix.pch; sourceTree = "<group>"; };
+		A9DC65641366762300DA53E5 /* GHUnitIOSTestMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHUnitIOSTestMain.m; sourceTree = "<group>"; };
+		A9DC656A1366787300DA53E5 /* ExampeTestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampeTestClass.m; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* LevousCore_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevousCore_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libLevousCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLevousCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,6 +134,11 @@
 		FB91CBC712D1561700E3BD4C /* LVStyleSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LVStyleSheet.m; sourceTree = "<group>"; };
 		FB91CD8D12D2BE1700E3BD4C /* LVTextStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LVTextStyle.h; sourceTree = "<group>"; };
 		FB91CD8E12D2BE1700E3BD4C /* LVTextStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LVTextStyle.m; sourceTree = "<group>"; };
+		FBAC20DD13194912003F321D /* LevousCoreHeadersImportAll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevousCoreHeadersImportAll.h; sourceTree = "<group>"; };
+		FBAC2212131C4EAA003F321D /* NSManagedObject+Levous.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+Levous.h"; sourceTree = "<group>"; };
+		FBAC2213131C4EAA003F321D /* NSManagedObject+Levous.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+Levous.m"; sourceTree = "<group>"; };
+		FBAC2479131D9F2B003F321D /* LVFetchedResultsControllerTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LVFetchedResultsControllerTableViewDataSource.h; sourceTree = "<group>"; };
+		FBAC247A131D9F2B003F321D /* LVFetchedResultsControllerTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LVFetchedResultsControllerTableViewDataSource.m; sourceTree = "<group>"; };
 		FBEAA54712C3991200168BD2 /* LVCoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LVCoreDataManager.h; path = Classes/CoreData/LVCoreDataManager.h; sourceTree = SOURCE_ROOT; };
 		FBEAA54812C3991200168BD2 /* LVCoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LVCoreDataManager.m; path = Classes/CoreData/LVCoreDataManager.m; sourceTree = SOURCE_ROOT; };
 		FBEAA55E12C39A2900168BD2 /* NSMutableArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSMutableArray.h; path = Libraries/SimpleData/NSMutableArray.h; sourceTree = SOURCE_ROOT; };
@@ -76,6 +167,18 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A9DC653713666FE100DA53E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9DC653C13666FE100DA53E5 /* UIKit.framework in Frameworks */,
+				A9DC653D13666FE100DA53E5 /* Foundation.framework in Frameworks */,
+				A9DC653E13666FE100DA53E5 /* CoreGraphics.framework in Frameworks */,
+				A9DC653F13666FE100DA53E5 /* CoreData.framework in Frameworks */,
+				A9DC65621366730F00DA53E5 /* GHUnitIOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D2AAC07C0554694100DB518D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -95,6 +198,7 @@
 			isa = PBXGroup;
 			children = (
 				D2AAC07E0554694100DB518D /* libLevousCore.a */,
+				A9DC653A13666FE100DA53E5 /* LevousCoreTests.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,6 +206,8 @@
 		0867D691FE84028FC02AAC07 /* LevousCore */ = {
 			isa = PBXGroup;
 			children = (
+				FBAC20DC131948D0003F321D /* LevousCoreHeaders */,
+				A9DC654013666FE100DA53E5 /* LevousCoreTests */,
 				08FB77AEFE84172EC02AAC07 /* Classes */,
 				FBEAA55C12C39A2900168BD2 /* Libraries */,
 				0867D69AFE84028FC02AAC07 /* Frameworks */,
@@ -114,6 +220,7 @@
 		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A9DC65611366730F00DA53E5 /* GHUnitIOS.framework */,
 				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
 				FBEAA57E12C39AC000168BD2 /* UIKit.framework */,
 				FBEAA58612C39AF400168BD2 /* QuartzCore.framework */,
@@ -128,9 +235,13 @@
 			children = (
 				FBEAA54612C3991200168BD2 /* CoreData */,
 				FBEAA61812C39E5D00168BD2 /* Instrumentation */,
+				A9DC652513666ACA00DA53E5 /* ModelForm */,
+				A986E085135FD21F0078E12E /* UI */,
 				FB91CBC512D155FB00E3BD4C /* UITheme */,
 				FBEAA6B612C39F9E00168BD2 /* Views */,
 				FBEAA60E12C39E2000168BD2 /* LVConstants.h */,
+				A92824401365EE2600D4D3A5 /* NSString+LVAdditions.h */,
+				A92824411365EE2600D4D3A5 /* NSString+LVAdditions.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -138,9 +249,68 @@
 		32C88DFF0371C24200C91783 /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				A9DC65631366737000DA53E5 /* LevousCoreTests_Prefix.pch */,
 				AA747D9E0F9514B9006C5449 /* LevousCore_Prefix.pch */,
 			);
 			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		A986E085135FD21F0078E12E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A986E087135FD2960078E12E /* KeyboardHelper.h */,
+				A986E088135FD2960078E12E /* KeyboardHelper.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		A9DC652513666ACA00DA53E5 /* ModelForm */ = {
+			isa = PBXGroup;
+			children = (
+				A9DC652713666B0F00DA53E5 /* ModelFormOrchestrator.h */,
+				A9DC652813666B0F00DA53E5 /* ModelFormOrchestrator.m */,
+				A9DC652C13666B4600DA53E5 /* ModelFormConfig.h */,
+				A9DC652D13666B4600DA53E5 /* ModelFormConfig.m */,
+			);
+			path = ModelForm;
+			sourceTree = "<group>";
+		};
+		A9DC654013666FE100DA53E5 /* LevousCoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9DC6567136677C800DA53E5 /* Classes */,
+				A9DC654113666FE100DA53E5 /* Supporting Files */,
+				A9DC65641366762300DA53E5 /* GHUnitIOSTestMain.m */,
+				A9DC656A1366787300DA53E5 /* ExampeTestClass.m */,
+			);
+			path = LevousCoreTests;
+			sourceTree = "<group>";
+		};
+		A9DC654113666FE100DA53E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9DC654213666FE100DA53E5 /* LevousCoreTests-Info.plist */,
+				A9DC654313666FE100DA53E5 /* InfoPlist.strings */,
+				A9DC654613666FE100DA53E5 /* LevousCoreTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9DC6567136677C800DA53E5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A9DC6568136677E000DA53E5 /* ModelForm */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A9DC6568136677E000DA53E5 /* ModelForm */ = {
+			isa = PBXGroup;
+			children = (
+				A99F987A13667B9D0074CF76 /* ModelFormConfigTests.m */,
+				A99F987E136680A70074CF76 /* ModelFormOrchestratorTests.m */,
+			);
+			path = ModelForm;
 			sourceTree = "<group>";
 		};
 		FB91CBC512D155FB00E3BD4C /* UITheme */ = {
@@ -154,11 +324,23 @@
 			name = UITheme;
 			sourceTree = "<group>";
 		};
+		FBAC20DC131948D0003F321D /* LevousCoreHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				FBAC20DD13194912003F321D /* LevousCoreHeadersImportAll.h */,
+			);
+			path = LevousCoreHeaders;
+			sourceTree = "<group>";
+		};
 		FBEAA54612C3991200168BD2 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
+				FBAC2479131D9F2B003F321D /* LVFetchedResultsControllerTableViewDataSource.h */,
+				FBAC247A131D9F2B003F321D /* LVFetchedResultsControllerTableViewDataSource.m */,
 				FBEAA54712C3991200168BD2 /* LVCoreDataManager.h */,
 				FBEAA54812C3991200168BD2 /* LVCoreDataManager.m */,
+				FBAC2212131C4EAA003F321D /* NSManagedObject+Levous.h */,
+				FBAC2213131C4EAA003F321D /* NSManagedObject+Levous.m */,
 			);
 			name = CoreData;
 			path = Classes/CoreData;
@@ -220,7 +402,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA747D9F0F9514B9006C5449 /* LevousCore_Prefix.pch in Headers */,
 				FBEAA54912C3991200168BD2 /* LVCoreDataManager.h in Headers */,
 				FBEAA56C12C39A2900168BD2 /* NSMutableArray.h in Headers */,
 				FBEAA56E12C39A2900168BD2 /* NSObject.h in Headers */,
@@ -234,12 +415,38 @@
 				FBEAA6BE12C39FFB00168BD2 /* UITableViewCell+CustomNib.h in Headers */,
 				FB91CBC812D1561700E3BD4C /* LVStyleSheet.h in Headers */,
 				FB91CD8F12D2BE1700E3BD4C /* LVTextStyle.h in Headers */,
+				AA747D9F0F9514B9006C5449 /* LevousCore_Prefix.pch in Headers */,
+				FBAC20DE13194912003F321D /* LevousCoreHeadersImportAll.h in Headers */,
+				FBAC2214131C4EAA003F321D /* NSManagedObject+Levous.h in Headers */,
+				FBAC247B131D9F2B003F321D /* LVFetchedResultsControllerTableViewDataSource.h in Headers */,
+				A986E089135FD2960078E12E /* KeyboardHelper.h in Headers */,
+				A92824421365EE2600D4D3A5 /* NSString+LVAdditions.h in Headers */,
+				A9DC652913666B0F00DA53E5 /* ModelFormOrchestrator.h in Headers */,
+				A9DC652E13666B4600DA53E5 /* ModelFormConfig.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		A9DC653913666FE100DA53E5 /* LevousCoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9DC655F13666FE100DA53E5 /* Build configuration list for PBXNativeTarget "LevousCoreTests" */;
+			buildPhases = (
+				A9DC653613666FE100DA53E5 /* Sources */,
+				A9DC653713666FE100DA53E5 /* Frameworks */,
+				A9DC653813666FE100DA53E5 /* Resources */,
+				A99F98811366818B0074CF76 /* Run Script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LevousCoreTests;
+			productName = LevousCoreTests;
+			productReference = A9DC653A13666FE100DA53E5 /* LevousCoreTests.app */;
+			productType = "com.apple.product-type.application";
+		};
 		D2AAC07D0554694100DB518D /* LevousCore */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "LevousCore" */;
@@ -247,6 +454,7 @@
 				D2AAC07A0554694100DB518D /* Headers */,
 				D2AAC07B0554694100DB518D /* Sources */,
 				D2AAC07C0554694100DB518D /* Frameworks */,
+				FBAC20FF13194B0D003F321D /* Copy Header Files to Headers Directory */,
 			);
 			buildRules = (
 			);
@@ -271,6 +479,7 @@
 				Japanese,
 				French,
 				German,
+				en,
 			);
 			mainGroup = 0867D691FE84028FC02AAC07 /* LevousCore */;
 			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
@@ -278,11 +487,51 @@
 			projectRoot = "";
 			targets = (
 				D2AAC07D0554694100DB518D /* LevousCore */,
+				A9DC653913666FE100DA53E5 /* LevousCoreTests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		A9DC653813666FE100DA53E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9DC654513666FE100DA53E5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A99F98811366818B0074CF76 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sh $(SRCROOT)/LevousCoreTests/RunTests.sh";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		A9DC653613666FE100DA53E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9DC65661366762E00DA53E5 /* GHUnitIOSTestMain.m in Sources */,
+				A99F987B13667B9D0074CF76 /* ModelFormConfigTests.m in Sources */,
+				A99F9882136682AF0074CF76 /* ModelFormOrchestratorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D2AAC07B0554694100DB518D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -299,10 +548,27 @@
 				FBEAA6BD12C39FFB00168BD2 /* UITableViewCell+CustomNib.m in Sources */,
 				FB91CBC912D1561700E3BD4C /* LVStyleSheet.m in Sources */,
 				FB91CD9012D2BE1700E3BD4C /* LVTextStyle.m in Sources */,
+				FBAC2215131C4EAA003F321D /* NSManagedObject+Levous.m in Sources */,
+				FBAC247C131D9F2B003F321D /* LVFetchedResultsControllerTableViewDataSource.m in Sources */,
+				A986E08A135FD2960078E12E /* KeyboardHelper.m in Sources */,
+				A92824431365EE2600D4D3A5 /* NSString+LVAdditions.m in Sources */,
+				A9DC652A13666B0F00DA53E5 /* ModelFormOrchestrator.m in Sources */,
+				A9DC652F13666B4600DA53E5 /* ModelFormConfig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A9DC654313666FE100DA53E5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9DC654413666FE100DA53E5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1DEB921F08733DC00010E9CD /* Debug */ = {
@@ -370,6 +636,55 @@
 			};
 			name = Release;
 		};
+		A9DC655D13666FE100DA53E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LevousCoreTests/LevousCoreTests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "LevousCoreTests/LevousCoreTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A9DC655E13666FE100DA53E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LevousCoreTests/LevousCoreTests-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				INFOPLIST_FILE = "LevousCoreTests/LevousCoreTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -387,6 +702,15 @@
 			buildConfigurations = (
 				1DEB922308733DC00010E9CD /* Debug */,
 				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9DC655F13666FE100DA53E5 /* Build configuration list for PBXNativeTarget "LevousCoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9DC655D13666FE100DA53E5 /* Debug */,
+				A9DC655E13666FE100DA53E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
