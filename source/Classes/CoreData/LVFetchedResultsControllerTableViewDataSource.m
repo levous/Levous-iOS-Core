@@ -112,7 +112,7 @@ fetchedResultsPredicate;
 	// nil for section name key path means "no sections".
 	NSFetchedResultsController *newFetchedResultsController = [[NSFetchedResultsController alloc] initWithFetchRequest:fetchRequest 
 																								  managedObjectContext:[[self coreDataManager] managedObjectContext]
-																									sectionNameKeyPath:nil // this key defines the sections
+																									sectionNameKeyPath:sectionNameKeyPath // this key defines the sections
 																											 cacheName:entityName]; 
 	return [newFetchedResultsController autorelease];
 }
