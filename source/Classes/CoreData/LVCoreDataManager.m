@@ -286,7 +286,7 @@ static BOOL loadingInitialData;
 }
 
 ////////////////////////////////////////////////////////
-- (NSUInteger)getCountForEntity:(NSString *)entityName withPredicate:(NSPredicate *)predicate{
+- (NSUInteger)countForEntity:(NSString *)entityName withPredicate:(NSPredicate *)predicate{
 	NSFetchRequest *request = [self fetchForEntityNamed:entityName];
 	if( predicate != nil ) [request setPredicate:predicate];
 	NSUInteger count =  [[self managedObjectContext] countForFetchRequest:request error:nil];
@@ -294,7 +294,7 @@ static BOOL loadingInitialData;
 }
 
 ////////////////////////////////////////////////////////
-- (NSManagedObject *)getEntityNamed:(NSString *)entityName withTitle:(NSString *)title{
+- (NSManagedObject *)fetchEntityNamed:(NSString *)entityName withTitle:(NSString *)title{
 	NSFetchRequest *fetch = [self fetchForEntityNamed:entityName];
 	[fetch setPredicate:[NSPredicate predicateWithFormat:@"title = %@", title]];
 	NSArray *results = [[self managedObjectContext] executeFetchRequest:fetch error:nil];

@@ -41,7 +41,8 @@
 //   and then check for these files upon init.  Encrypt these files, of
 //   course.
 
-+ (LVCoreDataManager *)instance;
+// DEPRECATED: Object instatiation and lifecycle is the responsibility of the app, not the class
++ (LVCoreDataManager *)instance NS_DEPRECATED(10_0, 10_4, 2_0, 2_0);;
 
 ////////////////////////////////////////
 
@@ -58,8 +59,8 @@
 // generic helpers   //////////////////////////////////////////
 - (NSFetchRequest *)fetchForEntityNamed:(NSString *)entityName;
 - (NSArray *)executeFetch:(NSFetchRequest *)fetchRequest;
-- (NSUInteger)getCountForEntity:(NSString *)entityName withPredicate:(NSPredicate *)predicate;
-- (NSManagedObject *)getEntityNamed:(NSString *)entityName withTitle:(NSString *)title;
+- (NSUInteger)countForEntity:(NSString *)entityName withPredicate:(NSPredicate *)predicate;
+- (NSManagedObject *)fetchEntityNamed:(NSString *)entityName withTitle:(NSString *)title;
 - (void)intializeModelWithTestData;
 
 @end
