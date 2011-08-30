@@ -90,12 +90,12 @@ const CFStringRef kCharsToForceEscape = CFSTR("!*'();:@&=+$,/?%#[]");
 	// replace "/" with "\_" because NSURL incorrectly unencodes the path
 	//   before breaking into path components and this breaks three20 navigation
 	// then encode the result using url encoding
-	return [[self stringByReplacingOccurrencesOfString:@"/" withString:@"\\_"] stringByUrlEncoding];
+	return [[self stringByReplacingOccurrencesOfString:@"/" withString:@"\\_"] lvStringByUrlEncoding];
 }
 
 - (NSString *)lvStringByDecodingFromInternalPath {
 	// unencode using url encoding, then replace "\_" with "/" (reverse stringByEncodingForInternalPath)
-	return [[self stringByUrlDecoding] stringByReplacingOccurrencesOfString:@"\\_" withString:@"/"];
+	return [[self lvStringByUrlDecoding] stringByReplacingOccurrencesOfString:@"\\_" withString:@"/"];
 }
 
 + (NSString*)lvStringWithGeneratedUUID {
