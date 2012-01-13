@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A920770B136DFE5B0028A813 /* UIImage+LVAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A9207709136DFE5B0028A813 /* UIImage+LVAdditions.h */; };
+		A920770C136DFE5B0028A813 /* UIImage+LVAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A920770A136DFE5B0028A813 /* UIImage+LVAdditions.m */; };
+		A920770D136DFE5B0028A813 /* UIImage+LVAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A920770A136DFE5B0028A813 /* UIImage+LVAdditions.m */; };
 		A92824421365EE2600D4D3A5 /* NSString+LVAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A92824401365EE2600D4D3A5 /* NSString+LVAdditions.h */; };
 		A92824431365EE2600D4D3A5 /* NSString+LVAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A92824411365EE2600D4D3A5 /* NSString+LVAdditions.m */; };
 		A92824451365EF6B00D4D3A5 /* NSString+LVAdditions.h in Copy Header Files to Headers Directory */ = {isa = PBXBuildFile; fileRef = A92824401365EE2600D4D3A5 /* NSString+LVAdditions.h */; };
+		A94E4516136CB3EC0015C61B /* TestDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A94E4514136CB3EC0015C61B /* TestDataModel.xcdatamodeld */; };
 		A986E089135FD2960078E12E /* KeyboardHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = A986E087135FD2960078E12E /* KeyboardHelper.h */; };
 		A986E08A135FD2960078E12E /* KeyboardHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A986E088135FD2960078E12E /* KeyboardHelper.m */; };
 		A99F987B13667B9D0074CF76 /* ModelFormConfigTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A99F987A13667B9D0074CF76 /* ModelFormConfigTests.m */; };
@@ -109,8 +113,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A9207709136DFE5B0028A813 /* UIImage+LVAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LVAdditions.h"; sourceTree = "<group>"; };
+		A920770A136DFE5B0028A813 /* UIImage+LVAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LVAdditions.m"; sourceTree = "<group>"; };
 		A92824401365EE2600D4D3A5 /* NSString+LVAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LVAdditions.h"; sourceTree = "<group>"; };
 		A92824411365EE2600D4D3A5 /* NSString+LVAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LVAdditions.m"; sourceTree = "<group>"; };
+		A93BB2B2136B2C4B006B6465 /* RunTests.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = RunTests.sh; sourceTree = "<group>"; };
+		A94E4515136CB3EC0015C61B /* TestDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestDataModel.xcdatamodel; sourceTree = "<group>"; };
 		A986E087135FD2960078E12E /* KeyboardHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardHelper.h; sourceTree = "<group>"; };
 		A986E088135FD2960078E12E /* KeyboardHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardHelper.m; sourceTree = "<group>"; };
 		A99F987A13667B9D0074CF76 /* ModelFormConfigTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelFormConfigTests.m; sourceTree = "<group>"; };
@@ -234,6 +242,7 @@
 			isa = PBXGroup;
 			children = (
 				FBEAA54612C3991200168BD2 /* CoreData */,
+				A9207707136DFE110028A813 /* Image */,
 				FBEAA61812C39E5D00168BD2 /* Instrumentation */,
 				A9DC652513666ACA00DA53E5 /* ModelForm */,
 				A986E085135FD21F0078E12E /* UI */,
@@ -253,6 +262,15 @@
 				AA747D9E0F9514B9006C5449 /* LevousCore_Prefix.pch */,
 			);
 			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		A9207707136DFE110028A813 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				A9207709136DFE5B0028A813 /* UIImage+LVAdditions.h */,
+				A920770A136DFE5B0028A813 /* UIImage+LVAdditions.m */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 		A986E085135FD21F0078E12E /* UI */ = {
@@ -282,6 +300,7 @@
 				A9DC654113666FE100DA53E5 /* Supporting Files */,
 				A9DC65641366762300DA53E5 /* GHUnitIOSTestMain.m */,
 				A9DC656A1366787300DA53E5 /* ExampeTestClass.m */,
+				A93BB2B2136B2C4B006B6465 /* RunTests.sh */,
 			);
 			path = LevousCoreTests;
 			sourceTree = "<group>";
@@ -292,6 +311,7 @@
 				A9DC654213666FE100DA53E5 /* LevousCoreTests-Info.plist */,
 				A9DC654313666FE100DA53E5 /* InfoPlist.strings */,
 				A9DC654613666FE100DA53E5 /* LevousCoreTests-Prefix.pch */,
+				A94E4514136CB3EC0015C61B /* TestDataModel.xcdatamodeld */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -423,6 +443,7 @@
 				A92824421365EE2600D4D3A5 /* NSString+LVAdditions.h in Headers */,
 				A9DC652913666B0F00DA53E5 /* ModelFormOrchestrator.h in Headers */,
 				A9DC652E13666B4600DA53E5 /* ModelFormConfig.h in Headers */,
+				A920770B136DFE5B0028A813 /* UIImage+LVAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -519,8 +540,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "sh $(SRCROOT)/LevousCoreTests/RunTests.sh";
-			showEnvVarsInLog = 0;
+			shellScript = "sh ./LevousCoreTests/RunTests.sh";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -532,6 +552,8 @@
 				A9DC65661366762E00DA53E5 /* GHUnitIOSTestMain.m in Sources */,
 				A99F987B13667B9D0074CF76 /* ModelFormConfigTests.m in Sources */,
 				A99F9882136682AF0074CF76 /* ModelFormOrchestratorTests.m in Sources */,
+				A94E4516136CB3EC0015C61B /* TestDataModel.xcdatamodeld in Sources */,
+				A920770D136DFE5B0028A813 /* UIImage+LVAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -557,6 +579,7 @@
 				A92824431365EE2600D4D3A5 /* NSString+LVAdditions.m in Sources */,
 				A9DC652A13666B0F00DA53E5 /* ModelFormOrchestrator.m in Sources */,
 				A9DC652F13666B4600DA53E5 /* ModelFormConfig.m in Sources */,
+				A920770C136DFE5B0028A813 /* UIImage+LVAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -718,6 +741,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A94E4514136CB3EC0015C61B /* TestDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A94E4515136CB3EC0015C61B /* TestDataModel.xcdatamodel */,
+			);
+			currentVersion = A94E4515136CB3EC0015C61B /* TestDataModel.xcdatamodel */;
+			path = TestDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
 }

@@ -20,5 +20,9 @@
 @property (nonatomic, copy) NSString *tableViewCellClassXibName;
 @property (nonatomic, copy) NSString *tableViewCellReuseIdentifier;
 @property (nonatomic, copy) NSString *fetchedEntityName;
+
 - (void)sortByFieldKeyPath:(NSString *)sortFieldKeyPath ascending:(BOOL)ascending;
+
+- (id)objectAtIndexPath:(NSIndexPath *)indexPath;
+
 @end

@@ -24,7 +24,7 @@
 @synthesize tableViewCellClassXibName, tableViewCellReuseIdentifier, coreDataManager, fetchedEntityName, \
 fetchedResultsPredicate;
 
-- (id)fetchedResultsController{
+- (NSFetchedResultsController *)fetchedResultsController{
 	if (fetchedResultsController == nil && [self fetchedEntityName]) {
 		[self setFetchedResultsController:[self createFetchedResultsControllerForEntityNamed:[self fetchedEntityName]]];
 		
@@ -38,7 +38,7 @@ fetchedResultsPredicate;
 	return fetchedResultsController;
 }
 
-- (void)setFetchedResultsController:(id)newFetchedResultsController{
+- (void)setFetchedResultsController:(NSFetchedResultsController *)newFetchedResultsController{
 	id oldFRC = fetchedResultsController;
 	fetchedResultsController = [newFetchedResultsController retain];
 	[oldFRC release];
@@ -117,8 +117,12 @@ fetchedResultsPredicate;
 	return [newFetchedResultsController autorelease];
 }
 
+- (id)objectAtIndexPath:(NSIndexPath *)indexPath{
+    return [[self fetchedResultsController] objectAtIndexPath:indexPath];
+}
+
 #pragma mark -
-#pragma mark UITableViewDataSource delegate methods
+#pragma mark UITableViewDataSource methods
 
 - (void)configureCell:(UITableViewCell *)cell atIndexPath:(NSIndexPath *)indexPath {
 	NSManagedObject *managedObject = [[self fetchedResultsController] objectAtIndexPath:indexPath];
