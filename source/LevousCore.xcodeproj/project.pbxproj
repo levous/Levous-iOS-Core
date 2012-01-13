@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A920770B136DFE5B0028A813 /* UIImage+LVAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A9207709136DFE5B0028A813 /* UIImage+LVAdditions.h */; };
+		A920770B136DFE5B0028A813 /* UIImage+LVAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A9207709136DFE5B0028A813 /* UIImage+LVAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A920770C136DFE5B0028A813 /* UIImage+LVAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A920770A136DFE5B0028A813 /* UIImage+LVAdditions.m */; };
 		A920770D136DFE5B0028A813 /* UIImage+LVAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A920770A136DFE5B0028A813 /* UIImage+LVAdditions.m */; };
-		A92824421365EE2600D4D3A5 /* NSString+LVAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A92824401365EE2600D4D3A5 /* NSString+LVAdditions.h */; };
+		A92824421365EE2600D4D3A5 /* NSString+LVAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A92824401365EE2600D4D3A5 /* NSString+LVAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A92824431365EE2600D4D3A5 /* NSString+LVAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A92824411365EE2600D4D3A5 /* NSString+LVAdditions.m */; };
 		A92824451365EF6B00D4D3A5 /* NSString+LVAdditions.h in Copy Header Files to Headers Directory */ = {isa = PBXBuildFile; fileRef = A92824401365EE2600D4D3A5 /* NSString+LVAdditions.h */; };
 		A94E4516136CB3EC0015C61B /* TestDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A94E4514136CB3EC0015C61B /* TestDataModel.xcdatamodeld */; };
-		A986E089135FD2960078E12E /* KeyboardHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = A986E087135FD2960078E12E /* KeyboardHelper.h */; };
+		A986E089135FD2960078E12E /* KeyboardHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = A986E087135FD2960078E12E /* KeyboardHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A986E08A135FD2960078E12E /* KeyboardHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A986E088135FD2960078E12E /* KeyboardHelper.m */; };
 		A99F987B13667B9D0074CF76 /* ModelFormConfigTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A99F987A13667B9D0074CF76 /* ModelFormConfigTests.m */; };
 		A99F9882136682AF0074CF76 /* ModelFormOrchestratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A99F987E136680A70074CF76 /* ModelFormOrchestratorTests.m */; };
-		A9DC652913666B0F00DA53E5 /* ModelFormOrchestrator.h in Headers */ = {isa = PBXBuildFile; fileRef = A9DC652713666B0F00DA53E5 /* ModelFormOrchestrator.h */; };
+		A9DC652913666B0F00DA53E5 /* ModelFormOrchestrator.h in Headers */ = {isa = PBXBuildFile; fileRef = A9DC652713666B0F00DA53E5 /* ModelFormOrchestrator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A9DC652A13666B0F00DA53E5 /* ModelFormOrchestrator.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DC652813666B0F00DA53E5 /* ModelFormOrchestrator.m */; };
-		A9DC652E13666B4600DA53E5 /* ModelFormConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = A9DC652C13666B4600DA53E5 /* ModelFormConfig.h */; };
+		A9DC652E13666B4600DA53E5 /* ModelFormConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = A9DC652C13666B4600DA53E5 /* ModelFormConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A9DC652F13666B4600DA53E5 /* ModelFormConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DC652D13666B4600DA53E5 /* ModelFormConfig.m */; };
 		A9DC653C13666FE100DA53E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBEAA57E12C39AC000168BD2 /* UIKit.framework */; };
 		A9DC653D13666FE100DA53E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
@@ -29,13 +29,13 @@
 		A9DC654513666FE100DA53E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9DC654313666FE100DA53E5 /* InfoPlist.strings */; };
 		A9DC65621366730F00DA53E5 /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9DC65611366730F00DA53E5 /* GHUnitIOS.framework */; };
 		A9DC65661366762E00DA53E5 /* GHUnitIOSTestMain.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DC65641366762300DA53E5 /* GHUnitIOSTestMain.m */; };
-		AA747D9F0F9514B9006C5449 /* LevousCore_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* LevousCore_Prefix.pch */; };
+		AA747D9F0F9514B9006C5449 /* LevousCore_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* LevousCore_Prefix.pch */; settings = {ATTRIBUTES = (Public, ); }; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
-		FB91CBC812D1561700E3BD4C /* LVStyleSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = FB91CBC612D1561700E3BD4C /* LVStyleSheet.h */; };
+		FB91CBC812D1561700E3BD4C /* LVStyleSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = FB91CBC612D1561700E3BD4C /* LVStyleSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB91CBC912D1561700E3BD4C /* LVStyleSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = FB91CBC712D1561700E3BD4C /* LVStyleSheet.m */; };
-		FB91CD8F12D2BE1700E3BD4C /* LVTextStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = FB91CD8D12D2BE1700E3BD4C /* LVTextStyle.h */; };
+		FB91CD8F12D2BE1700E3BD4C /* LVTextStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = FB91CD8D12D2BE1700E3BD4C /* LVTextStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB91CD9012D2BE1700E3BD4C /* LVTextStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = FB91CD8E12D2BE1700E3BD4C /* LVTextStyle.m */; };
-		FBAC20DE13194912003F321D /* LevousCoreHeadersImportAll.h in Headers */ = {isa = PBXBuildFile; fileRef = FBAC20DD13194912003F321D /* LevousCoreHeadersImportAll.h */; };
+		FBAC20DE13194912003F321D /* LevousCoreHeadersImportAll.h in Headers */ = {isa = PBXBuildFile; fileRef = FBAC20DD13194912003F321D /* LevousCoreHeadersImportAll.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FBAC210513194C43003F321D /* LVCoreDataManager.h in Copy Header Files to Headers Directory */ = {isa = PBXBuildFile; fileRef = FBEAA54712C3991200168BD2 /* LVCoreDataManager.h */; };
 		FBAC210613194C43003F321D /* NSMutableArray.h in Copy Header Files to Headers Directory */ = {isa = PBXBuildFile; fileRef = FBEAA55E12C39A2900168BD2 /* NSMutableArray.h */; };
 		FBAC210713194C43003F321D /* NSObject.h in Copy Header Files to Headers Directory */ = {isa = PBXBuildFile; fileRef = FBEAA56012C39A2900168BD2 /* NSObject.h */; };
@@ -49,37 +49,37 @@
 		FBAC210F13194C43003F321D /* UITableViewCell+CustomNib.h in Copy Header Files to Headers Directory */ = {isa = PBXBuildFile; fileRef = FBEAA6BC12C39FFB00168BD2 /* UITableViewCell+CustomNib.h */; };
 		FBAC211013194C43003F321D /* LVStyleSheet.h in Copy Header Files to Headers Directory */ = {isa = PBXBuildFile; fileRef = FB91CBC612D1561700E3BD4C /* LVStyleSheet.h */; };
 		FBAC211113194C43003F321D /* LVTextStyle.h in Copy Header Files to Headers Directory */ = {isa = PBXBuildFile; fileRef = FB91CD8D12D2BE1700E3BD4C /* LVTextStyle.h */; };
-		FBAC2214131C4EAA003F321D /* NSManagedObject+Levous.h in Headers */ = {isa = PBXBuildFile; fileRef = FBAC2212131C4EAA003F321D /* NSManagedObject+Levous.h */; };
+		FBAC2214131C4EAA003F321D /* NSManagedObject+Levous.h in Headers */ = {isa = PBXBuildFile; fileRef = FBAC2212131C4EAA003F321D /* NSManagedObject+Levous.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FBAC2215131C4EAA003F321D /* NSManagedObject+Levous.m in Sources */ = {isa = PBXBuildFile; fileRef = FBAC2213131C4EAA003F321D /* NSManagedObject+Levous.m */; };
 		FBAC221B131C5111003F321D /* NSManagedObject+Levous.h in Copy Header Files to Headers Directory */ = {isa = PBXBuildFile; fileRef = FBAC2212131C4EAA003F321D /* NSManagedObject+Levous.h */; };
-		FBAC247B131D9F2B003F321D /* LVFetchedResultsControllerTableViewDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = FBAC2479131D9F2B003F321D /* LVFetchedResultsControllerTableViewDataSource.h */; };
+		FBAC247B131D9F2B003F321D /* LVFetchedResultsControllerTableViewDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = FBAC2479131D9F2B003F321D /* LVFetchedResultsControllerTableViewDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FBAC247C131D9F2B003F321D /* LVFetchedResultsControllerTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = FBAC247A131D9F2B003F321D /* LVFetchedResultsControllerTableViewDataSource.m */; };
 		FBAC2480131D9F45003F321D /* LVFetchedResultsControllerTableViewDataSource.h in Copy Header Files to Headers Directory */ = {isa = PBXBuildFile; fileRef = FBAC2479131D9F2B003F321D /* LVFetchedResultsControllerTableViewDataSource.h */; };
-		FBEAA54912C3991200168BD2 /* LVCoreDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FBEAA54712C3991200168BD2 /* LVCoreDataManager.h */; };
+		FBEAA54912C3991200168BD2 /* LVCoreDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FBEAA54712C3991200168BD2 /* LVCoreDataManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FBEAA54A12C3991200168BD2 /* LVCoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEAA54812C3991200168BD2 /* LVCoreDataManager.m */; };
-		FBEAA56C12C39A2900168BD2 /* NSMutableArray.h in Headers */ = {isa = PBXBuildFile; fileRef = FBEAA55E12C39A2900168BD2 /* NSMutableArray.h */; };
+		FBEAA56C12C39A2900168BD2 /* NSMutableArray.h in Headers */ = {isa = PBXBuildFile; fileRef = FBEAA55E12C39A2900168BD2 /* NSMutableArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FBEAA56D12C39A2900168BD2 /* NSMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEAA55F12C39A2900168BD2 /* NSMutableArray.m */; };
-		FBEAA56E12C39A2900168BD2 /* NSObject.h in Headers */ = {isa = PBXBuildFile; fileRef = FBEAA56012C39A2900168BD2 /* NSObject.h */; };
+		FBEAA56E12C39A2900168BD2 /* NSObject.h in Headers */ = {isa = PBXBuildFile; fileRef = FBEAA56012C39A2900168BD2 /* NSObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FBEAA56F12C39A2900168BD2 /* NSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEAA56112C39A2900168BD2 /* NSObject.m */; };
-		FBEAA57012C39A2900168BD2 /* NSString.h in Headers */ = {isa = PBXBuildFile; fileRef = FBEAA56212C39A2900168BD2 /* NSString.h */; };
+		FBEAA57012C39A2900168BD2 /* NSString.h in Headers */ = {isa = PBXBuildFile; fileRef = FBEAA56212C39A2900168BD2 /* NSString.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FBEAA57112C39A2900168BD2 /* NSString.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEAA56312C39A2900168BD2 /* NSString.m */; };
-		FBEAA57212C39A2900168BD2 /* SDTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FBEAA56412C39A2900168BD2 /* SDTableViewController.h */; };
+		FBEAA57212C39A2900168BD2 /* SDTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FBEAA56412C39A2900168BD2 /* SDTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FBEAA57312C39A2900168BD2 /* SDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEAA56512C39A2900168BD2 /* SDTableViewController.m */; };
-		FBEAA57412C39A2900168BD2 /* SimpleModel.h in Headers */ = {isa = PBXBuildFile; fileRef = FBEAA56612C39A2900168BD2 /* SimpleModel.h */; };
+		FBEAA57412C39A2900168BD2 /* SimpleModel.h in Headers */ = {isa = PBXBuildFile; fileRef = FBEAA56612C39A2900168BD2 /* SimpleModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FBEAA57512C39A2900168BD2 /* SimpleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEAA56712C39A2900168BD2 /* SimpleModel.m */; };
-		FBEAA57612C39A2900168BD2 /* SimpleStore.h in Headers */ = {isa = PBXBuildFile; fileRef = FBEAA56812C39A2900168BD2 /* SimpleStore.h */; };
+		FBEAA57612C39A2900168BD2 /* SimpleStore.h in Headers */ = {isa = PBXBuildFile; fileRef = FBEAA56812C39A2900168BD2 /* SimpleStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FBEAA57712C39A2900168BD2 /* SimpleStore.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEAA56912C39A2900168BD2 /* SimpleStore.m */; };
-		FBEAA57812C39A2900168BD2 /* UIApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = FBEAA56A12C39A2900168BD2 /* UIApplication.h */; };
+		FBEAA57812C39A2900168BD2 /* UIApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = FBEAA56A12C39A2900168BD2 /* UIApplication.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FBEAA57912C39A2900168BD2 /* UIApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEAA56B12C39A2900168BD2 /* UIApplication.m */; };
 		FBEAA57F12C39AC000168BD2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBEAA57E12C39AC000168BD2 /* UIKit.framework */; };
 		FBEAA58712C39AF400168BD2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBEAA58612C39AF400168BD2 /* QuartzCore.framework */; };
 		FBEAA58912C39B0300168BD2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBEAA58812C39B0300168BD2 /* CoreGraphics.framework */; };
 		FBEAA58B12C39B0F00168BD2 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBEAA58A12C39B0F00168BD2 /* CoreData.framework */; };
-		FBEAA60F12C39E2000168BD2 /* LVConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = FBEAA60E12C39E2000168BD2 /* LVConstants.h */; };
-		FBEAA61B12C39E5D00168BD2 /* LVInstrumentationController.h in Headers */ = {isa = PBXBuildFile; fileRef = FBEAA61912C39E5D00168BD2 /* LVInstrumentationController.h */; };
+		FBEAA60F12C39E2000168BD2 /* LVConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = FBEAA60E12C39E2000168BD2 /* LVConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBEAA61B12C39E5D00168BD2 /* LVInstrumentationController.h in Headers */ = {isa = PBXBuildFile; fileRef = FBEAA61912C39E5D00168BD2 /* LVInstrumentationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FBEAA61C12C39E5D00168BD2 /* LVInstrumentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEAA61A12C39E5D00168BD2 /* LVInstrumentationController.m */; };
 		FBEAA6BD12C39FFB00168BD2 /* UITableViewCell+CustomNib.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEAA6BB12C39FFB00168BD2 /* UITableViewCell+CustomNib.m */; };
-		FBEAA6BE12C39FFB00168BD2 /* UITableViewCell+CustomNib.h in Headers */ = {isa = PBXBuildFile; fileRef = FBEAA6BC12C39FFB00168BD2 /* UITableViewCell+CustomNib.h */; };
+		FBEAA6BE12C39FFB00168BD2 /* UITableViewCell+CustomNib.h in Headers */ = {isa = PBXBuildFile; fileRef = FBEAA6BC12C39FFB00168BD2 /* UITableViewCell+CustomNib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
