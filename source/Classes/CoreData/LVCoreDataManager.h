@@ -57,6 +57,7 @@
 - (void)shutDownCoreData;
 
 // generic helpers   //////////////////////////////////////////
+- (id)createNewInstanceForEntityNamed:(NSString *)entityName;
 - (NSFetchRequest *)fetchForEntityNamed:(NSString *)entityName;
 - (NSArray *)executeFetch:(NSFetchRequest *)fetchRequest;
 - (NSUInteger)countForEntity:(NSString *)entityName withPredicate:(NSPredicate *)predicate;

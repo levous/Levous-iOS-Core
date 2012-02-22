@@ -265,6 +265,14 @@ static BOOL loadingInitialData;
 #pragma mark -
 #pragma mark CoreData Helper Methods
 
+
+- (id)createNewInstanceForEntityNamed:(NSString *)entityName{
+    return [NSEntityDescription insertNewObjectForEntityForName:entityName
+                                         inManagedObjectContext:[self managedObjectContext]];
+
+    
+}
+
 ///////////////////////////////////////////////////////////////
 //   Helper method to create a fetch request in the current context for the entity name given
 - (NSFetchRequest *)fetchForEntityNamed:(NSString *)entityName{

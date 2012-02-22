@@ -610,8 +610,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = LevousCore_Prefix.pch;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
-				INSTALL_PATH = /usr/local/lib;
+				INSTALL_PATH = " “$(BUILT_PRODUCTS_DIR)”";
 				PRODUCT_NAME = LevousCore;
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
@@ -625,8 +627,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = LevousCore_Prefix.pch;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
-				INSTALL_PATH = /usr/local/lib;
+				INSTALL_PATH = " “$(BUILT_PRODUCTS_DIR)”";
 				PRODUCT_NAME = LevousCore;
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
@@ -642,6 +646,7 @@
 					"-ObjC",
 					"-all_load",
 				);
+				PUBLIC_HEADERS_FOLDER_PATH = "../../Headers/$(PRODUCT_NAME)";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -657,6 +662,7 @@
 					"-ObjC",
 					"-all_load",
 				);
+				PUBLIC_HEADERS_FOLDER_PATH = "../../Headers/$(PRODUCT_NAME)";
 				SDKROOT = iphoneos;
 			};
 			name = Release;
